@@ -1,0 +1,37 @@
+*{
+    background-color: black;
+    color: white;
+}
+div{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+h1{
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville'; serif;
+}
+p{
+    font-size: large;
+}
+img{
+    border: 5px solid red;
+}
+.center-container{
+    display: flex;
+    flex-direction: column; /*Elementi idu jedan ispod drugog*/
+    justify-content: center; /*Vertikalno centriranje */
+    align-items: center; /*Horizontalno centriranje*/
+    height: 100vh; /* 100% visine ekrana*/
+    text-align: center;
+}
+.center-container img{
+    width: 50%; /*Slika zauzima 50% širine roditeljskog diva*/
+    max-width: 400px; /*Maksimalna širina slike*/
+    height: auto; /*Održava proporcije*/
+    margin-bottom: 20px; /*Razmak između slike i teksta*/
+}
+.center-container p{
+    font-size: 18px;
+    margin: 0px; /*Uklanja defaultne margine*/
+}
